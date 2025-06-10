@@ -1,7 +1,6 @@
 
 const functionUrl = "https://3l55exyp2vzpz6r4q3b6eqerae0oqkra.lambda-url.us-east-1.on.aws/";
 
-
 async function fetchViewCount() {
   try {
     const response = await fetch(functionUrl);
